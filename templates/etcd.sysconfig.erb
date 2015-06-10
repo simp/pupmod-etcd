@@ -1,0 +1,55 @@
+#!/bin/bash
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+ETCD_NAME=<%= @etcd_name %>
+ETCD_DATA_DIR=<%= @data_dir %>
+ETCD_SNAPSHOT_COUNT=<%= @snapshot_count %>
+ETCD_HEARTBEAT_INTERVAL=<%= @heartbeat_interval %>
+ETCD_ELECTION_TIMEOUT=<%= @election_timeout %>
+ETCD_LISTEN_CLIENT_URLS=<%= @listen_client_urls.join(',') %>
+ETCD_MAX_SNAPSHOTS=<%= @max_snapshots %>
+ETCD_MAX_WALS=<%= @max_wals %>
+<% if not @cors == '' then -%>
+ETCD_CORS=<%= @cors.join(',') %>
+<% end -%>
+ETCD_INITIAL_ADVERTISE_PEER_URLS=<%= @initial_advertise_peer_urls.join(',') %>
+ETCD_INITIAL_CLUSTER=<%= @initial_cluster.join(',') %>
+ETCD_INITIAL_CLUSTER_STATE=<%= @initial_cluster_state %>
+ETCD_INITIAL_CLUSTER_TOKEN=<%= @initial_cluster_token %>
+ETCD_ADVERTISE_CLIENT_URLS=<%= @advertise_client_urls.join(',') %>
+<% if not @discovery == '' then -%>
+ETCD_DISCOVERY=<%= @discovery %>
+<% end -%>
+<% if not @discovery_srv == '' then -%>
+ETCD_DISCOVERY_SRV=<%= @discovery_srv %>
+<% end -%>
+ETCD_DISCOVERY_FALLBACK=<%= @discovery_fallback %>
+<% if not @discovery_proxy == '' then -%>
+ETCD_DISCOVERY_PROXY=<%= @discovery_proxy %>
+<% end -%>
+ETCD_PROXY=<%= @proxy %>
+ETCD_CA_FILE=<%= @ca_file %>
+ETCD_CERT_FILE=<%= @cert_file%>
+ETCD_KEY_FILE=<%= @key_file %>
+ETCD_CLIENT_CERT_AUTH=<%= @client_cert_auth %>
+ETCD_PEER_CA_FILE=<%= @peer_ca_file %>
+ETCD_PEER_CERT_FILE=<%= @peer_cert_file %>
+ETCD_PEER_KEY_FILE=<%= @peer_key_file %>
+ETCD_PEER_CLIENT_CERT_AUTH=<%= @peer_client_cert_auth %>
+ETCD_DEBUG=<%= @debug %>
+<% if not @log_package_levels == '' then -%>
+ETCD_LOG_PACKAGE_LEVELS=<%= @log_package_levels %>
+<% end -%>
+ETCD_FORCE_NEW_CLUSTER=<%= @force_new_cluster %>
+ETCD_VERSION=<%= @version %>
