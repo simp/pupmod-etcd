@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_9630d502",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1005143
+      },
+      "writtenOn": "2015-06-10T20:35:17Z",
+      "side": 1,
+      "message": "Please wrap Jira issue in first line in parentheses [ex: \"(SIMP-51)\" instead of \"SIMP-51\"].",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "0b1ae6356000822e55614c97d8ea8314eca993a5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_310b9326",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1005143
+      },
+      "writtenOn": "2015-06-10T20:35:17Z",
+      "side": 1,
+      "message": "This uses the old Redmine syntax.  Use the new Jira issue command instead:\n\n\"SIMP-51 #close Created etcd pupmod\"\n\nSee: https://simp-project.atlassian.net/wiki/display/SD/Contributing+to+SIMP",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 14
+      },
+      "revId": "0b1ae6356000822e55614c97d8ea8314eca993a5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_f1004b03",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1005143
+      },
+      "writtenOn": "2015-06-10T20:35:17Z",
+      "side": 1,
+      "message": "trailing whitespace!",
+      "range": {
+        "startLine": 5,
+        "startChar": 76,
+        "endLine": 5,
+        "endChar": 77
+      },
+      "revId": "0b1ae6356000822e55614c97d8ea8314eca993a5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_1104cf13",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1005143
+      },
+      "writtenOn": "2015-06-10T20:35:17Z",
+      "side": 1,
+      "message": "trailing whitespace!",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 1
+      },
+      "revId": "0b1ae6356000822e55614c97d8ea8314eca993a5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_1614c54c",
+        "filename": "build/pupmod-simp-etcd.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1005143
+      },
+      "writtenOn": "2015-06-10T20:35:17Z",
+      "side": 1,
+      "message": "trailing whitespace!",
+      "range": {
+        "startLine": 3,
+        "startChar": 14,
+        "endLine": 3,
+        "endChar": 15
+      },
+      "revId": "0b1ae6356000822e55614c97d8ea8314eca993a5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_36170953",
+        "filename": "build/pupmod-simp-etcd.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1005143
+      },
+      "writtenOn": "2015-06-10T20:35:17Z",
+      "side": 1,
+      "message": "trailing whitespace!",
+      "range": {
+        "startLine": 34,
+        "startChar": 37,
+        "endLine": 34,
+        "endChar": 38
+      },
+      "revId": "0b1ae6356000822e55614c97d8ea8314eca993a5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_7608b12d",
+        "filename": "manifests/install.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1005143
+      },
+      "writtenOn": "2015-06-10T20:35:17Z",
+      "side": 1,
+      "message": "trailing whitespace!",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 2
+      },
+      "revId": "0b1ae6356000822e55614c97d8ea8314eca993a5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
