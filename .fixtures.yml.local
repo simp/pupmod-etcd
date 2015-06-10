@@ -1,0 +1,7 @@
+---
+fixtures:
+  symlinks:
+    etcd: "#{source_dir}"
+    common: "#{source_dir}/../common"
+    stdlib: "#{source_dir}/../stdlib"
+    iptables: "#{source_dir}/../iptables"
