@@ -1,0 +1,4 @@
+---
+fixtures:
+  symlinks:
+    etcd: "#{source_dir}"
