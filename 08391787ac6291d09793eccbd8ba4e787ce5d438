@@ -22,6 +22,30 @@
       "revId": "08391787ac6291d09793eccbd8ba4e787ce5d438",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_faebb4ad",
+        "filename": "manifests/init.pp",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1005194
+      },
+      "writtenOn": "2015-06-15T19:15:50Z",
+      "side": 1,
+      "message": "Yes on both accounts.",
+      "parentUuid": "facab960_1acbf853",
+      "range": {
+        "startLine": 127,
+        "startChar": 2,
+        "endLine": 131,
+        "endChar": 25
+      },
+      "revId": "08391787ac6291d09793eccbd8ba4e787ce5d438",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
